@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Pestscan",
+    "slug": "pestscan-website",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pestscan.website"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D3B1E"
+      },
+      "package": "com.pestscan.website"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "scheme": "pestscan",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
+  }
+}
