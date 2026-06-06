@@ -37,7 +37,7 @@ export default function Nav() {
                 <View style={[styles.spark, styles.sparkBottomLeft]} />
               </View>
             </View>
-            <Text style={styles.brandName}>PestScout</Text>
+            <Text style={styles.brandName}>Pelturi</Text>
           </TouchableOpacity>
         </Link>
 

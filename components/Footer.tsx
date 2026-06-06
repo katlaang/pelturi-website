@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <View style={styles.footer}>
       <View style={styles.brandBlock}>
-        <Text style={styles.copy}>PestScout</Text>
+        <Text style={styles.copy}>Pelturi</Text>
         <Text style={styles.subcopy}>
           Offline-first pest scouting for greenhouse and field operations.
         </Text>
