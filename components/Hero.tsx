@@ -96,7 +96,7 @@ export default function Hero() {
         <View style={styles.btns}>
           <TouchableOpacity
             style={styles.btnWhite}
-            onPress={() => Linking.openURL('https://app.pelturi.com/login/')}
+            onPress={() => Linking.openURL('https://app.pelturi.com')}
           >
             <Text style={styles.btnWhiteText}>View platform</Text>
           </TouchableOpacity>

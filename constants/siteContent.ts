@@ -1,6 +1,6 @@
 export const PRIMARY_NAV = [
   { label: 'Features', href: '/features' },
-  { label: 'Platform', href: 'https://app.pelturi.com/login/' },
+  { label: 'Platform', href: 'https://app.pelturi.com' },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Contact', href: '/contact' },
 ];
