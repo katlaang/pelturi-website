@@ -3,6 +3,7 @@ import {
   Animated,
   Dimensions,
   Image,
+  Linking,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -93,7 +94,10 @@ export default function Hero() {
         <Text style={styles.sub}>{HERO_SLIDES[active].sub}</Text>
 
         <View style={styles.btns}>
-          <TouchableOpacity style={styles.btnWhite} onPress={() => router.push('/platform')}>
+          <TouchableOpacity
+            style={styles.btnWhite}
+            onPress={() => Linking.openURL('https://app.pelturi.com/login/')}
+          >
             <Text style={styles.btnWhiteText}>View platform</Text>
           </TouchableOpacity>
 
