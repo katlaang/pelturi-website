@@ -38,6 +38,7 @@ export default function Docs() {
   );
 }
 
+
 const styles = StyleSheet.create({
   section: {
     paddingHorizontal: PAD,
@@ -66,4 +67,5 @@ const styles = StyleSheet.create({
     marginTop: 7,
   },
   itemText: { flex: 1, fontSize: 15, lineHeight: 24, color: C.muted },
+  
 });
